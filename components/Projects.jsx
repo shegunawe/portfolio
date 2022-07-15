@@ -25,6 +25,12 @@ const Projects = () => {
             tech="Next JS"
           />
           <ProjectItem
+            title="Restaurant Landing Page"
+            backgroundImg={restaurant}
+            projectUrl="/Restaurant"
+            tech="React JS"
+          />
+          <ProjectItem
             title="Cloud Management"
             backgroundImg={cloudManagement}
             projectUrl="/CloudManagement"
@@ -47,12 +53,6 @@ const Projects = () => {
             backgroundImg={foodSearch}
             projectUrl="/FoodSearch"
             tech="Next JS"
-          />
-          <ProjectItem
-            title="Restaurant Landing Page"
-            backgroundImg={restaurant}
-            projectUrl="/Restaurant"
-            tech="React JS"
           />
         </div>
       </div>
