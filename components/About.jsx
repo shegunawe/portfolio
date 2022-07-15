@@ -15,7 +15,7 @@ const About = () => {
           
           <p className='py-2 text-gray-600'>
             I have always had a knack for
-            technology and working with computers. In 2019, I am currently an undergradute studying computer science, My interest in Web Development started while working on a school project with HTML and CSS for. What I thought was just a school project turned into a love for web development and programming in general.
+            technology and working with computers. In 2019, I am currently an undergradute studying computer science, My interest in Web Development started while working on a school project with HTML and CSS. What I thought was just a school project turned into a love for web development and programming in general.
           </p>
           <p className='py-2 text-gray-600'>
             Fascinated with how intricate programming can be I was quickly drawn
