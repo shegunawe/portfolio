@@ -3,6 +3,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Typed from 'react-typed';
 
 const Main = () => {
   return (
@@ -13,7 +14,14 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I&#39;m <span className="text-[#5651e5]"> Segun</span>
+            Hi, I&#39;m 
+            <Typed 
+              className="text-[#5651e5] ml-3"
+              strings={['Segun', 'Awe']}
+              typeSpeed={120}
+              backSpeed={140}
+              loop
+            />
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
