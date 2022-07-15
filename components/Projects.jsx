@@ -48,12 +48,6 @@ const Projects = () => {
             projectUrl="/PhoneCart"
             tech="Next JS"
           />
-          <ProjectItem
-            title="Food Search"
-            backgroundImg={foodSearch}
-            projectUrl="/FoodSearch"
-            tech="Next JS"
-          />
         </div>
       </div>
     </div>
